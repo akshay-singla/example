@@ -46,7 +46,7 @@ Sample ->
 	"key": "timespent",
 	"val": 30
 	}]
-	}
+}
 ```
 
 
