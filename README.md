@@ -10,7 +10,7 @@ Run the Application
 ```
 
 1 -> Runt the Application using CMD : go run main.go
-2-> THe Application will serve over the 8080 port on your local machine
+2 -> THe Application will serve over the 8080 port on your local machine
 
 ```
 
