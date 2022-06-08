@@ -1,0 +1,13 @@
+FROM golang:1.15
+
+# build directories
+ADD . /go/src/example
+WORKDIR /go/src/example
+
+
+ENV GO111MODULE=off
+
+RUN go install example
+ENTRYPOINT /go/bin/example
+
+EXPOSE 8080
